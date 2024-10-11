@@ -1,0 +1,3 @@
+[submodule "movie-convo"]
+	path = movie-convo
+	url = https://github.com/diejor/movie-convo
