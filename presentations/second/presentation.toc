@@ -1,0 +1,16 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Dataset Description}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Dataset Used}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Data Acquisition}{7}{0}{2}
+\beamer@sectionintoc {3}{Determining Library Availability}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{API Integration}{10}{0}{3}
+\beamer@sectionintoc {4}{Data Processing and Embedding}{11}{0}{4}
+\beamer@subsectionintoc {4}{1}{Handling Missing Plot Embeddings}{12}{0}{4}
+\beamer@subsectionintoc {4}{2}{Plot Embedding Generation}{13}{0}{4}
+\beamer@subsectionintoc {4}{3}{Data Cleaning and Preparation}{14}{0}{4}
+\beamer@sectionintoc {5}{Embedding Visualization}{15}{0}{5}
+\beamer@subsectionintoc {5}{1}{Dimensionality Reduction}{17}{0}{5}
+\beamer@subsectionintoc {5}{2}{Visualization Example}{18}{0}{5}
+\beamer@sectionintoc {6}{Results and Insights}{19}{0}{6}
+\beamer@subsectionintoc {6}{1}{Dataset Statistics}{20}{0}{6}
+\beamer@subsectionintoc {6}{2}{Embedding Insights}{21}{0}{6}

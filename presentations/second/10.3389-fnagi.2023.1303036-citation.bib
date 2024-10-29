@@ -1,0 +1,19 @@
+@ARTICLE{10.3389/fnagi.2023.1303036,
+
+AUTHOR={Dartora, Caroline  and Marseglia, Anna  and Mårtensson, Gustav  and Rukh, Gull  and Dang, Junhua  and Muehlboeck, J-Sebastian  and Wahlund, Lars-Olof  and Moreno, Rodrigo  and Barroso, José  and Ferreira, Daniel  and Schiöth, Helgi B.  and Westman, Eric  and , for the Alzheimer’s Disease Neuroimaging Initiative  and , the Australian Imaging Biomarkers and Lifestyle Flagship Study of Ageing  and , the Japanese Alzheimer’s Disease Neuroimaging Initiative  and , the AddNeuroMed Consortium },
+
+TITLE={A deep learning model for brain age prediction using minimally preprocessed T1w images as input},
+
+JOURNAL={Frontiers in Aging Neuroscience},
+
+VOLUME={15},
+
+YEAR={2024},
+
+URL={https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2023.1303036},
+
+DOI={10.3389/fnagi.2023.1303036},
+
+ISSN={1663-4365},
+
+ABSTRACT={<sec><title>Introduction</title><p>In the last few years, several models trying to calculate the biological brain age have been proposed based on structural magnetic resonance imaging scans (T1-weighted MRIs, T1w) using multivariate methods and machine learning. We developed and validated a convolutional neural network (CNN)-based biological brain age prediction model that uses one T1w MRI preprocessing step when applying the model to external datasets to simplify implementation and increase accessibility in research settings. Our model only requires rigid image registration to the MNI space, which is an advantage compared to previous methods that require more preprocessing steps, such as feature extraction.</p></sec><sec><title>Methods</title><p>We used a multicohort dataset of cognitively healthy individuals (age range = 32.0–95.7 years) comprising 17,296 MRIs for training and evaluation. We compared our model using hold-out (CNN1) and cross-validation (CNN2–4) approaches. To verify generalisability, we used two external datasets with different populations and MRI scan characteristics to evaluate the model. To demonstrate its usability, we included the external dataset’s images in the cross-validation training (CNN3). To ensure that our model used only the brain signal on the image, we also predicted brain age using skull-stripped images (CNN4).</p></sec><sec><title>Results:</title><p>The trained models achieved a mean absolute error of 2.99, 2.67, 2.67, and 3.08 years for CNN1–4, respectively. The model’s performance in the external dataset was in the typical range of mean absolute error (MAE) found in the literature for testing sets. Adding the external dataset to the training set (CNN3), overall, MAE is unaffected, but individual cohort MAE improves (5.63–2.25 years). Salience maps of predictions reveal that periventricular, temporal, and insular regions are the most important for age prediction.</p></sec><sec><title>Discussion</title><p>We provide indicators for using biological (predicted) brain age as a metric for age correction in neuroimaging studies as an alternative to the traditional chronological age. In conclusion, using different approaches, our CNN-based model showed good performance using one T1w brain MRI preprocessing step. The proposed CNN model is made publicly available for the research community to be easily implemented and used to study ageing and age-related disorders.</p></sec>}}
